@@ -1,0 +1,29 @@
+.quality {
+  position: relative;
+
+  margin-top: 256px;
+
+  background: #2c343e;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__img {
+    position: absolute;
+    top: -88px;
+    left: 750px;
+  }
+  &__left {
+    margin-left: 85px;
+
+    &__title {
+      color: #fefcf7;
+    }
+    &__description {
+      margin-bottom: 176px;
+
+      color: #fefcf7;
+    }
+  }
+}

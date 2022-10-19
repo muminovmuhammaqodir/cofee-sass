@@ -1,0 +1,30 @@
+// Fonts
+@import "./others/_fonts.scss";
+// Variables
+@import "./others/varables";
+// globals
+@import "./others/global";
+// header
+@import "./home/header";
+// hero section
+@import "./home/_main/hero";
+/* collection section */
+@import "./home/_main/collection";
+/* choose section */
+@import "./home/_main/choose";
+/* how it works section */
+@import "./home/_main/howitworks";
+/* footer  */
+@import "./home/footer";
+
+/* about us  page */
+/* about us  page */
+
+// aboutus section
+@import "./about-us/aboutus";
+// /* commit section  */
+@import "./about-us/commit";
+/* quality section */
+@import "./about-us/quality";
+/* headquartersection */
+@import "./about-us/headquarter";

@@ -1,0 +1,32 @@
+.header {
+  margin-top: 43px;
+  .nav {
+    @extend %displays;
+    &__list {
+      width: 283px;
+
+      @extend %displays;
+
+      list-style: none;
+    }
+    &__link {
+      text-decoration: none;
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+
+      color: #83888f;
+      &:hover {
+        cursor: pointer;
+      }
+      &:active {
+        color: $secondary-text-color;
+      }
+    }
+  }
+}

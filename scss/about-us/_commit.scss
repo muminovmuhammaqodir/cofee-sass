@@ -1,0 +1,27 @@
+.commit {
+  margin-top: 168px;
+
+  display: flex;
+  justify-content: space-around;
+  &__right {
+    &__title {
+      margin-top: 90px;
+
+      font-size: 40px;
+      line-height: 48px;
+
+      color: #333d4b;
+    }
+    &__description {
+      margin-top: 32px;
+      width: 540px;
+
+      font-size: 16px;
+      line-height: 26px;
+      color: $secondary-text-color;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+}

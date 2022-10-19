@@ -1,0 +1,51 @@
+.footer {
+  margin-top: 200px;
+  margin-bottom: 88px;
+
+  &__section {
+    background: #2c343e;
+    padding: 47px 85px;
+
+    @extend %displays;
+
+    .footer__nav {
+      @extend %displays;
+
+      &__list {
+        margin-left: 0px;
+        margin-left: 102px;
+        width: 283px;
+
+        @extend %displays;
+
+        list-style: none;
+      }
+      &__link {
+        text-decoration: none;
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+
+        color: #83888f;
+        &:active {
+          color: #fefcf7;
+        }
+      }
+    }
+    .footer__networks {
+      width: 120px;
+
+      @extend %displays;
+      gap: 24px;
+
+      &_icon:active {
+        background-color: #fdd6ba;
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.howitworks {
+  margin-top: 351px;
+
+  @extend %display-t-s;
+  align-items: center;
+
+  &__title {
+    width: 1045px;
+
+    font-size: 32px;
+    line-height: 32px;
+    text-align: start;
+
+    color: #83888f;
+  }
+  &__main {
+    margin-top: 80px;
+
+    &__cards {
+      @extend %displays;
+      gap: 95px;
+
+      margin-top: 67px;
+      margin-bottom: 64px;
+
+      .howitworks__number {
+        width: 90px;
+        height: 72px;
+        font-weight: bold;
+
+        color: #fdd6ba;
+      }
+      .howitworks__card__title {
+        margin-top: 38px;
+        width: 255px;
+
+        text-align: start;
+        font-size: 32px;
+        line-height: 36px;
+
+        color: #333d4b;
+      }
+      .howitworks__card__description {
+        margin-top: 42px;
+        margin-bottom: 65px;
+        width: 285px;
+
+        text-align: start;
+
+        color: #333d4b;
+      }
+    }
+    &__btn {
+      padding: 15px 31px 16px;
+
+      background: $main-bg-color;
+      border-radius: 6px;
+
+      font-size: 18px;
+      line-height: 25px;
+      text-decoration: none;
+      text-align: center;
+
+      &:active {
+        background: #66d2cf;
+      }
+    }
+  }
+}
