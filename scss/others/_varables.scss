@@ -1,6 +1,6 @@
 $main-font-regular: "Barlow-Regular";
 $main-font-bold: "Barlow-Bold";
-$fraunces-font-extrabold: "Fraunces_9pt-Black";
+$fraunces-font-extraxbold: "Fraunces_9pt-Black";
 $main-title-size: 72px;
 $secondary-title-size: 18px;
 $thrity-title-size: 24px;
@@ -9,26 +9,27 @@ $main-bg-color: #0e8784;
 $secondary-text-color: #333d4b;
 
 %displays {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 %display-t-s {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 %titles {
-  font-family: "Fraunces";
-  font-size: $main-title-size;
-  line-height: 72px;
+	font-family: "Fraunces";
+	font-size: $main-title-size;
+	line-height: 72px;
 
-  color: #fefcf7;
+	color: #fefcf7;
 }
 %texts {
-  font-family: "Barlow";
-  font-size: $main-text-size;
-  line-height: 26px;
+	font-family: "Barlow";
+	font-size: $main-text-size;
+	line-height: 26px;
 
-  color: rgba(254, 252, 247, 0.8);
+	color: rgba(254, 252, 247, 0.8);
 }
+

@@ -1,0 +1,133 @@
+.menu__section__cards {
+	width: 730px;
+
+	.cards__one {
+		margin-top: 88px;
+		@extend %display-t-s;
+
+		&__title {
+			@extend %displays;
+			gap: 79px;
+
+			.menu__cars--title {
+				width: 632px;
+
+				@extend %titles;
+				font-size: 40px;
+				font-weight: 900px;
+				line-height: 48px;
+
+				color: #83888f;
+			}
+		}
+		&-card {
+			margin-top: 56px;
+
+			@extend %displays;
+			gap: 23px;
+
+			.card__first {
+				padding: 32px 28px 84px;
+
+				display: flex;
+				flex-direction: column;
+				gap: 24px;
+
+				background: rgb(244, 241, 235);
+				border-radius: 8px;
+
+				transition: all 0.8s ease;
+
+				&__title {
+					@extend %titles;
+
+					font-size: $thrity-title-size;
+					line-height: 32px;
+
+					color: $secondary-text-color;
+				}
+				&__text {
+					@extend %texts;
+
+					color: $secondary-text-color;
+				}
+				// &:nth-child(2n) {
+				// 	background-color: $main-bg-color;
+				// 	&:hover {
+				// 		.for__color {
+				// 			color: #000;
+				// 		}
+				// 	}
+				// }
+				&:hover {
+					background-color: #fdd6ba;
+				}
+
+				.for__color {
+					color: #fff;
+				}
+			}
+			#for__nth {
+				background-color: $main-bg-color;
+
+				&:hover {
+					background-color: #fdd6ba;
+					.for__color {
+						color: #000;
+					}
+				}
+			}
+		}
+	}
+	.order {
+		margin-top: 88px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 40px;
+
+		&__block {
+			padding: 27px 64px;
+
+			background: #2c343e;
+			border-radius: 10px;
+			.order__title {
+				line-height: 26px;
+				font-weight: 400;
+				text-transform: uppercase;
+
+				color: #ffffff;
+
+				mix-blend-mode: normal;
+				opacity: 0.5;
+			}
+			&__quote {
+				margin-top: 8px;
+
+				font-size: 24px;
+				line-height: 40px;
+
+				color: #ffffff;
+				span {
+					color: rgb(14, 135, 132);
+				}
+			}
+			&__btn {
+				padding: 15px 31px 16px;
+
+				background: $main-bg-color;
+				border-radius: 6px;
+
+				font-size: 18px;
+				line-height: 25px;
+				text-decoration: none;
+				text-align: center;
+
+				&:active {
+					background: #66d2cf;
+				}
+			}
+		}
+	}
+}
